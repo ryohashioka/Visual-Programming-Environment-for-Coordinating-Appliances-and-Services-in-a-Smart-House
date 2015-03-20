@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><ApplianceAndServiceList>
+<input category="SmartDevice" gui="choice" icon="netatmo.png" name="netatmo" option=" , " place=" " set="temperature;textField/2/text/~/text,humidity;textField/2/text/~/text,CO2;textField/4/text/~/text,pressure;textField/4/text/~/text,noise;textField/3/text/~/text,RainGauge;textField/3/text/~/text"/>
+<input category="SmartDevice" gui="choice" icon="f-plug.png" name="F-PLUG" option=" , " place=" " set="power;textField/4/text/~/text,temperature;textField/2/text/~/text,humidity;textField/2/text/~/text,illumination;textField/4/text/~/text"/>
+<input category="InternetService" gui="choice" icon="weather.png" name="weather" option=" , " place=" " set="update weather report,weather worning"/>
+<input category="InternetService" gui="choice" icon="rainfall.png" name="rainfall" option=" , " place=" " set="update rainfall report"/>
+<input category="InternetService" gui="choice" icon="twitter.png" name="Twitter" option=" , " place=" " set="receive mention,update hashtag #i2015"/>
+<input category="Time" gui="choice" icon="time.png" name="Time" option=" , " place="" set="single;textField/2/text/:/text,range;textField/2/text/:/text/ ~ /text/:/text"/>
+<input category="sensor" gui="choice" icon="door.png" name="door" option=" , " place="living room" set="open,close"/>
+<output category="SmartDevice" gui="choice" icon="hue.png" name="Hue" option=" , " place="light1,light2,light3,lightStrips" set="on;colorPicker/#000000,off"/>
+<output category="HomeAppliance" gui="choice" icon="light.png" name="light" option=" , " place="living room" set="on,off,original"/>
+<output category="HomeAppliance" gui="choice" icon="dvd.png" name="DVD" option=" , " place="" set="play pause,stop"/>
+<output category="HomeAppliance" gui="choice" icon="display.png" name="display" option=" , " place="living room" set="on,off,input1,input2,input3"/>
+<output category="HomeAppliance" gui="choice" icon="projector.png" name="projector" option=" , " place="" set="on,off"/>
+<output category="HomeAppliance" gui="choice" icon="screen.png" name="screen" option=" , " place="" set="up,down"/>
+<output category="HomeAppliance" gui="choice" icon="blu-ray.png" name="Blu-ray" option=" , " place="" set="power,play,pause,stop"/>
+<output category="HomeAppliance" gui="choice" icon="avamp.png" name="AVamp" option=" , " place="" set="on,off,DVR,BD,HDMIOUT"/>
+<output category="HomeAppliance" gui="choice" icon="airconditioner.png" name="AirConditioner" option=" , " place="living room" set="heater,cooler,off"/>
+</ApplianceAndServiceList>

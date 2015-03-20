@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><system>
+<program id="707817d71ad245c09f1d94a35cd03ad1">
+<object boxClass="input" boxID="0" gui="choice" icon="door.png" name="door" nextBox="1,2,3,4,5,6" operation="open" option=" , " place="" places="living room" set="open,close" x="477.0" y="31.0"/>
+<object boxClass="output" boxID="1" gui="choice" icon="hue.png" name="Hue" nextBox="" operation="on;#1f42f9" option=" , " place="light1" places="light1,light2,light3,lightStrips" set="on;colorPicker/#000000,off" x="404.0" y="189.0"/>
+<object boxClass="output" boxID="2" gui="choice" icon="hue.png" name="Hue" nextBox="" operation="on;#5041f9" option=" , " place="light2" places="light1,light2,light3,lightStrips" set="on;colorPicker/#000000,off" x="604.0" y="149.0"/>
+<object boxClass="output" boxID="3" gui="choice" icon="hue.png" name="Hue" nextBox="" operation="on;#1c67f9" option=" , " place="lightStrips" places="light1,light2,light3,lightStrips" set="on;colorPicker/#000000,off" x="509.0" y="269.0"/>
+<object boxClass="output" boxID="4" gui="choice" icon="light.png" name="light" nextBox="" operation="on" option=" , " place="" places="living room" set="on,off,original" x="379.0" y="334.0"/>
+<object boxClass="output" boxID="5" gui="choice" icon="display.png" name="display" nextBox="" operation="on" option=" , " place="" places="living room" set="on,off,input1,input2,input3" x="596.0" y="405.0"/>
+<object boxClass="output" boxID="6" gui="choice" icon="airconditioner.png" name="AirConditioner" nextBox="" operation="heater" option=" , " place="" places="living room" set="heater,cooler,off" x="479.0" y="491.0"/>
+</program>
+<program id="91c556de7cb649d89536404a8c6bed27">
+<object boxClass="input" boxID="0" gui="choice" icon="door.png" name="door" nextBox="1,2,3,4,5,6" operation="close" option=" , " place="" places="living room" set="open,close" x="837.0" y="22.0"/>
+<object boxClass="output" boxID="1" gui="choice" icon="hue.png" name="Hue" nextBox="" operation="on;#f9f2ba" option=" , " place="light2" places="light1,light2,light3,lightStrips" set="on;colorPicker/#000000,off" x="728.0" y="202.0"/>
+<object boxClass="output" boxID="2" gui="choice" icon="hue.png" name="Hue" nextBox="" operation="on;#f9ef9b" option=" , " place="light1" places="light1,light2,light3,lightStrips" set="on;colorPicker/#000000,off" x="971.0" y="126.0"/>
+<object boxClass="output" boxID="3" gui="choice" icon="hue.png" name="Hue" nextBox="" operation="on;#f9eba4" option=" , " place="lightStrips" places="light1,light2,light3,lightStrips" set="on;colorPicker/#000000,off" x="856.0" y="205.0"/>
+<object boxClass="output" boxID="4" gui="choice" icon="display.png" name="display" nextBox="" operation="off" option=" , " place="" places="living room" set="on,off,input1,input2,input3" x="821.0" y="355.0"/>
+<object boxClass="output" boxID="5" gui="choice" icon="light.png" name="light" nextBox="" operation="off" option=" , " place="" places="living room" set="on,off,original" x="1015.0" y="352.0"/>
+<object boxClass="output" boxID="6" gui="choice" icon="airconditioner.png" name="AirConditioner" nextBox="" operation="off" option=" , " place="" places="living room" set="heater,cooler,off" x="903.0" y="482.0"/>
+</program>
+</system>

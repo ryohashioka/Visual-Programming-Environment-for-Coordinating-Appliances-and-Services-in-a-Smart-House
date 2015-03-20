@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.homeprogrammingenvironment"
+	android:versionCode="1"
+	android:versionName="1.0">
+	<supports-screens android:xlargeScreens="true" />
+	<application android:label="@string/app_name" android:debuggable="true">
+		<activity android:name="javafxports.android.FXActivity" android:label="@string/app_name"
+			android:configChanges="orientation">
+			<meta-data android:name="launcher.class" android:value="javafxports.android.DalvikLauncher" />
+			<!-- Full name of the application class to run -->
+			<meta-data android:name="main.class"
+				android:value="com.homeprogrammingenvironment/HomeProgrammingEnvironment" />
+			<!-- Jvm arguments (delimiter |) -->
+			<meta-data android:name="jvm.args"
+				android:value="-Djavafx.verbose=true|-Djavafx.name=value" />
+			<!-- Application arguments (delimiter |) -->
+			<meta-data android:name="app.args" android:value="arg1|arg2" />
+			<!-- Jdwp debugging port. Don't forget to forward port (adb forward tcp:port1 tcp:port2) -->
+			<meta-data android:name="debug.port" android:value="0" />
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>

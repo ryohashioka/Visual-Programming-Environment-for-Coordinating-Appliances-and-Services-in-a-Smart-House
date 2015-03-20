@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/weather6.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/rain6.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/netatmo6.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/hue6.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/fplug6.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/netatmo.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/twitter4j-examples-4.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/twitter4j-media-support-4.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/twitter4j-stream-4.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/twitter4j-async-4.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/twitter4j-core-4.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/httpclient-cache-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/fluent-hc-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/jl1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/jsminim.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/minim.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/mp3spi1.9.4.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/net.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/serial.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/tritonus_aos.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/tritonus_share.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/core.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/oscP5.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/mp3spi1.9.5.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/promidi.jar"/>
+	<classpathentry kind="lib" path="/Users/imacadmin/Documents/workspace/HomeServer/code/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

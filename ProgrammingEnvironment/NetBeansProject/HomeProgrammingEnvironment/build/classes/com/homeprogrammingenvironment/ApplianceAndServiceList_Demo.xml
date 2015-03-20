@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApplianceAndServiceList>
+	<!--- 
+	<input category="" name="" gui="bar or list" barNum="list=>0,bar=>1or2" minNum="" maxNum="" set="test1,test2,test3(if integer -> -1)" />
+	<input category="" name="" gui="" barNum="" minNum="" maxNum="" set="" />
+	<output category="" name="" gui="" barNum="" minNum="" maxNum="" set="" />
+	 -->
+	<input category="sensor" name="door" gui="bar" barNum="1" minNum="0" maxNum="4" set="close,open,lock,unlock" />
+	<input category="sensor" name="place" gui="bar" barNum="1" minNum="0" maxNum="4" set="living room,entrance,bed room,washroom" />
+	<input category="sensor" name="temperature" gui="bar" barNum="2" minNum="-50" maxNum="50" set="-1,℃" />
+    <input category="time" name="time1" gui="bar" barNum="1" minNum="0" maxNum="1440" set="-1" />
+	<input category="time" name="time2" gui="bar" barNum="2" minNum="0" maxNum="1440" set="-1" />
+	<input category="sensor" name="humidity" gui="bar" barNum="2" minNum="0" maxNum="100" set="-1,%" />
+	<input category="sensor" name="speech" gui="bar" barNum="1" minNum="0" maxNum="5" set="DVD,TV,music,light,toilet" />
+	<input category="sensor" name="button" gui="bar" barNum="1" minNum="0" maxNum="2" set="true,false" />
+    <input category="time" name="timer" gui="bar" barNum="1" minNum="0" maxNum="60" set="-1" />
+    <output category="homeElectronics" name="light_control" gui="bar" barNum="1" minNum="0" maxNum="101" set="-1" />
+	<output category="homeElectronics" name="Music" gui="bar" barNum="1" minNum="0" maxNum="2" set="PLAY,STOP" />
+	<output category="homeElectronics" name="photoframe" gui="bar" barNum="1" minNum="0" maxNum="2" set="ON,OFF" />
+	<output category="homeElectronics" name="AirConditioner" gui="bar" barNum="1" minNum="0" maxNum="4" set="cooler,heater,OFF,temperature" />
+    <output category="homeElectronics" name="Hue_light1" gui="bar" barNum="1" minNum="0" maxNum="2" set="ON,OFF" />
+    <output category="homeElectronics" name="Hue_light2" gui="bar" barNum="1" minNum="0" maxNum="2" set="ON,OFF" />
+    <output category="homeElectronics" name="Hue_light1_Bri" gui="bar" barNum="1" minNum="0" maxNum="255" set="-1" />
+    <output category="homeElectronics" name="Hue_light1_Hue" gui="bar" barNum="1" minNum="0" maxNum="65535" set="-1" />
+    <output category="homeElectronics" name="Hue_light1_Sat" gui="bar" barNum="1" minNum="0" maxNum="255" set="-1" />
+    <output category="homeElectronics" name="Speaker" gui="bar" barNum="1" minNum="0" maxNum="100" set="-1" />
+	<output category="homeElectronics" name="projector" gui="bar" barNum="1" minNum="0" maxNum="2" set="on,off" />
+	<output category="internetService" name="Twitter" gui="bar" barNum="1" minNum="0" maxNum="2" set="Tweet,TweetList" />
+</ApplianceAndServiceList>
