@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2015 Ryo Hashioka
+ */
 package controller;
 
 import promidi.*;

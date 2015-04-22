@@ -1,4 +1,6 @@
-
+/*
+ * Copyright (c) 2015 Ryo Hashioka
+ */
 package com.homeprogrammingenvironment;
 
 import static java.lang.Thread.sleep;
